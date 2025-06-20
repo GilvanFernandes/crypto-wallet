@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyjwt = "*"
+requests = "*"
+python-multipart = "*"
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+mysql-connector-python = "*"
+pydantic = "*"
+python-dotenv = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+aiohttp = "*"
+tenacity = "*"
+structlog = "*"
+alembic = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "*"
+black = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.9"
